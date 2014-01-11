@@ -24,3 +24,28 @@ margin-left:190px;
 border-left:1px solid gray;
 padding:1em;
 }
+
+ul
+{
+list-style-type:none; /* Removes the bullets. */
+
+/* Remove browser default settings */
+margin:0;
+padding:0;
+}
+
+a:link,a:visited
+{
+display:block;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#626665;
+width:120px;
+text-align:center;
+padding:4px;
+text-decoration:none;
+}
+a:hover,a:active
+{
+background-color:black;
+}
